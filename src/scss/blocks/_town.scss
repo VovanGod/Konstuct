@@ -1,0 +1,21 @@
+.town {
+    background: url(./../img/main-2.jpg) center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 640px;
+
+    &-title {
+        color: #48555B;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px; 
+        letter-spacing: 0.15px;
+    }
+
+    .blue-btn {
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+}
